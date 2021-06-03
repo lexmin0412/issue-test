@@ -16,8 +16,8 @@
 }
 
 .input {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     display: block;
     height: 10vh;
     width: 100vw;
