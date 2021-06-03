@@ -1,0 +1,24 @@
+.body-content {
+    height: 90vh;
+    background-color: #45aafa;
+}
+.body-content-part {
+    height: 30%;
+}
+.body-content-part.top {
+    background-color: green;
+}
+.body-content-part.middle {
+    background-color: red;
+}
+.body-content-part.bottom {
+    background-color: lightcoral;
+}
+
+.input {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    height: 10vh;
+    width: 100vw;
+}

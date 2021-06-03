@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <script src="./input.js">
+    
+      </script>
+      <script>
+          let flexheight = document.documentElement.clientHeight;
+      // 在页面整体加载完毕时
+      window.onload = () => {
+        // 把获取到的高赋值给.flex
+        document.getElementsByClassName('body-content')[0].style.height = `${flexheight}px`;
+      };
+      </script>
+    <div class="body-content">
+        <div class="body-content-part top">top</div>
+        <div class="body-content-part middle">middle</div>
+        <div class="body-content-part bottom">bottom</div>
+    </div>
+    <input type="text" placeholder="请输入内容" class="input" />
+    
+</body>
+</html>
