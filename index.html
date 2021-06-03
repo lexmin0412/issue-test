@@ -16,7 +16,8 @@
   <script>
     let flexheight = document.documentElement.clientHeight;
     window.onload = () => {
-      document.getElementsByClassName('body-content')[0].style.height = `${flexheight}px`;
+      document.getElementsByClassName('body-content')[0].style.height = `${flexheight*0.9}px`;
+      document.getElementsByClassName('input')[0].style.height = `${flexheight*0.1}px`;
     };
   </script>
   <div class="body-content">

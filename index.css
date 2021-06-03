@@ -1,3 +1,9 @@
+body, input, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
 .body-content {
     height: 90vh;
     background-color: #45aafa;
